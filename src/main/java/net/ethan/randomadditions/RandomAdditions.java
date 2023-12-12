@@ -1,6 +1,7 @@
 package net.ethan.randomadditions;
 
 import com.mojang.logging.LogUtils;
+import net.ethan.randomadditions.block.ModBlocks;
 import net.ethan.randomadditions.item.ModCreativeModTabs;
 import net.ethan.randomadditions.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,8 @@ public class RandomAdditions {
         ModCreativeModTabs.register(modEventBus); //registers the creative mode tab
 
         ModItems.register(modEventBus); //calls the register method to register the deferredregister
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

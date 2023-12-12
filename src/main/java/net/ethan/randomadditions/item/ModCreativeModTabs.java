@@ -1,6 +1,7 @@
 package net.ethan.randomadditions.item;
 
 import net.ethan.randomadditions.RandomAdditions;
+import net.ethan.randomadditions.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,6 +19,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.JADE.get());
                         output.accept(ModItems.RAW_JADE.get());
+                        output.accept(ModBlocks.JADE_BLOCK.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {
