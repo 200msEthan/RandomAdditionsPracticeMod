@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "randomadditions:raw_jade_block"
+    }
+  ],
+  "result": {
+    "item": "randomadditions:raw_jade",
+    "count": 9
+  }
+}

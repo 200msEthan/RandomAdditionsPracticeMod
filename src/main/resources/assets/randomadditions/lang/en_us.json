@@ -1,6 +1,10 @@
 {
   "item.randomadditions.jade": "Jade",
   "item.randomadditions.raw_jade": "Raw Jade",
+  "item.randomadditions.divining_rod": "Divining Rod",
   "block.randomadditions.jade_block": "Block of Jade",
+  "block.randomadditions.raw_jade_block": "Block of Raw Jade",
+  "block.randomadditions.jade_ore": "Jade Ore",
+  "block.randomadditions.deepslate_jade_ore": "Deepslate Jade Ore",
   "creativetab.random_additions_tab": "Random Additions Tab"
 }

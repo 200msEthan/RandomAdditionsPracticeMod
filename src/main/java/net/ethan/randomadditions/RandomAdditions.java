@@ -1,3 +1,7 @@
+/* Todo:
+add another custom item:
+    a bucket that has a 50/50 chance of giving you water or lava
+ */
 package net.ethan.randomadditions;
 
 import com.mojang.logging.LogUtils;
