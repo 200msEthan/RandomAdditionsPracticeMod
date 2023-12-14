@@ -24,6 +24,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.JADE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
                         output.accept(ModItems.DIVINING_ROD.get());
+                        output.accept(ModItems.SUGAR_GLASS.get());
+                        output.accept(ModItems.CHARRED_CHARCOAL.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

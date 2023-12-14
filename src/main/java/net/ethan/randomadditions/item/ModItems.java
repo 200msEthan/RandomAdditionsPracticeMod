@@ -2,6 +2,7 @@ package net.ethan.randomadditions.item;
 
 import net.ethan.randomadditions.RandomAdditions;
 import net.ethan.randomadditions.item.custom.DiviningRodItem;
+import net.ethan.randomadditions.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIVINING_ROD = ITEMS.register("divining_rod",
             () -> new DiviningRodItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> SUGAR_GLASS = ITEMS.register("sugar_glass",
+            () -> new Item(new Item.Properties().food(ModFoods.SUGAR_GLASS)));
+    public static final RegistryObject<Item> CHARRED_CHARCOAL = ITEMS.register("charred_charcoal",
+            () -> new FuelItem(new Item.Properties(), 400));
     public static void register(IEventBus eventBus) { //registers deferredregisters
         ITEMS.register(eventBus);
     }
