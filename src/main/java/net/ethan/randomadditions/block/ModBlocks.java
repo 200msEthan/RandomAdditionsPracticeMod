@@ -1,13 +1,11 @@
 package net.ethan.randomadditions.block;
 
 import net.ethan.randomadditions.RandomAdditions;
+import net.ethan.randomadditions.block.custom.AlarmMineBlock;
 import net.ethan.randomadditions.item.ModItems;
-import net.ethan.randomadditions.item.custom.FuelItem;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -17,7 +15,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Supplier;
 
@@ -34,6 +31,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_JADE_ORE = registerBlock("deepslate_jade_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(4.5f).requiresCorrectToolForDrops(), UniformInt.of(4,7)));
+    public static final RegistryObject<Block> ALARM_MINE = registerBlock("alarm_mine",
+            () -> new AlarmMineBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

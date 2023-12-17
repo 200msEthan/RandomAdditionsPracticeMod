@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.DIVINING_ROD.get());
                         output.accept(ModItems.SUGAR_GLASS.get());
                         output.accept(ModItems.CHARRED_CHARCOAL.get());
+                        output.accept(ModBlocks.ALARM_MINE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {
