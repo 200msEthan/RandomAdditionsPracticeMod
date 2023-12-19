@@ -9,5 +9,6 @@
   "block.randomadditions.jade_ore": "Jade Ore",
   "block.randomadditions.deepslate_jade_ore": "Deepslate Jade Ore",
   "block.randomadditions.alarm_mine": "Alarm Mine",
+  "tooltip.randomadditions.divining_rod.tooltip": "Detects ore underground",
   "creativetab.random_additions_tab": "Random Additions Tab"
 }
