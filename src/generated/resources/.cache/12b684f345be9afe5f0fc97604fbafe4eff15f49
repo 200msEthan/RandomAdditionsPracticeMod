@@ -1,0 +1,6 @@
+// 1.20.2	2023-12-19T20:18:19.3294116	Tags for minecraft:block mod id randomadditions
+7900fbd245aa19abe798007970858c9cb4d3ed3c data/forge/tags/blocks/needs_netherite_tool.json
+9f679bbbc63aad5bcfb0ac73e712550eb1ecd77c data/minecraft/tags/blocks/mineable/pickaxe.json
+d43280f44637df065d3d8dd2e2d297ab736edac8 data/minecraft/tags/blocks/needs_diamond_tool.json
+649b31eb38079ac8e00d5f87fb730dd4e0e679da data/minecraft/tags/blocks/needs_iron_tool.json
+4167d046d4f5879cc81dc8f11c665a840308b73c data/randomadditions/tags/blocks/divining_rod_valuables.json
