@@ -49,6 +49,11 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.JADE_SHOVEL.get());
                         output.accept(ModItems.JADE_HOE.get());
 
+                        output.accept(ModItems.JADE_HELMET.get());
+                        output.accept(ModItems.JADE_CHESTPLATE.get());
+                        output.accept(ModItems.JADE_LEGGINGS.get());
+                        output.accept(ModItems.JADE_BOOTS.get());
+
                     })
                     .build());
     public static void register(IEventBus eventBus) {
