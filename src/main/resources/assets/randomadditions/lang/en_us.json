@@ -1,14 +1,38 @@
 {
   "item.randomadditions.jade": "Jade",
   "item.randomadditions.raw_jade": "Raw Jade",
+
   "item.randomadditions.divining_rod": "Divining Rod",
+
   "item.randomadditions.sugar_glass": "Sugar Glass",
+
   "item.randomadditions.charred_charcoal": "Charred Charcoal",
+
+  "item.randomadditions.jade_sword": "Jade Sword",
+  "item.randomadditions.jade_pickaxe": "Jade Pickaxe",
+  "item.randomadditions.jade_axe": "Jade Axe",
+  "item.randomadditions.jade_shovel": "Jade Shovel",
+  "item.randomadditions.jade_hoe": "Jade Hoe",
+
   "block.randomadditions.jade_block": "Block of Jade",
   "block.randomadditions.raw_jade_block": "Block of Raw Jade",
+
   "block.randomadditions.jade_ore": "Jade Ore",
   "block.randomadditions.deepslate_jade_ore": "Deepslate Jade Ore",
+
   "block.randomadditions.alarm_mine": "Alarm Mine",
+
+  "block.randomadditions.jade_stairs": "Jade Stairs",
+  "block.randomadditions.jade_slab": "Jade Slab",
+  "block.randomadditions.jade_button": "Jade Button",
+  "block.randomadditions.jade_pressure_plate": "Jade Pressure Plate",
+  "block.randomadditions.jade_fence": "Jade Fence",
+  "block.randomadditions.jade_fence_gate": "Jade Fence Gate",
+  "block.randomadditions.jade_wall": "Jade Wall",
+  "block.randomadditions.jade_door": "Jade Door",
+  "block.randomadditions.jade_trapdoor": "Jade Trapdoor",
+
   "tooltip.randomadditions.divining_rod.tooltip": "Detects ore underground",
+
   "creativetab.random_additions_tab": "Random Additions Tab"
 }

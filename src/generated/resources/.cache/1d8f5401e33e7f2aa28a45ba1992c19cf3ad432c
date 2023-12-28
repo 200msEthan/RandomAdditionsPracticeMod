@@ -1,6 +1,20 @@
-// 1.20.2	2023-12-19T20:18:19.3284122	Item Models: randomadditions
+// 1.20.2	2023-12-28T20:15:35.5404923	Item Models: randomadditions
 000af45e1cc66383d4d9a4b9b2ed3211382bf6c0 assets/randomadditions/models/item/charred_charcoal.json
 83a4d09e865da2a8b12bc543a4f55d9c13839935 assets/randomadditions/models/item/divining_rod.json
 3562733a5317320a1d92d3e4d26c5482ea5c5282 assets/randomadditions/models/item/jade.json
+fde2b3b7beb1affcefc5a08b93895e8b2bb0bf26 assets/randomadditions/models/item/jade_axe.json
+fd4defb983a3efad14e316bf0695a6f572336185 assets/randomadditions/models/item/jade_button.json
+494c6c3d95c328424097c7b01657d15eb0802501 assets/randomadditions/models/item/jade_door.json
+4b9dc17ceb51917cbc24080a8058355a43f2e9d7 assets/randomadditions/models/item/jade_fence.json
+72dae65dce14773809826f29c169e0f193dcef02 assets/randomadditions/models/item/jade_fence_gate.json
+7bac6c5d64bc548496c0889784b329b9d0b517a4 assets/randomadditions/models/item/jade_hoe.json
+1ac011538f0da480baa601d22b6e972f59f367e7 assets/randomadditions/models/item/jade_pickaxe.json
+cab005430f8787f3e36e00c43d7b01fcc488042b assets/randomadditions/models/item/jade_pressure_plate.json
+cde58b19bda98fca352d1422516497de89920a15 assets/randomadditions/models/item/jade_shovel.json
+750eec854212501e364a23d26179012621ae311d assets/randomadditions/models/item/jade_slab.json
+70096b188c43472725863da3302e6a7ec009d2e9 assets/randomadditions/models/item/jade_stairs.json
+ac0d790d02d1c409d1fd1c6bf21539630b903813 assets/randomadditions/models/item/jade_sword.json
+1918b868e0d6575e284427fdee673a10518c3261 assets/randomadditions/models/item/jade_trapdoor.json
+236cc656bd25ab84255fda3ceff4a8d16ab289b6 assets/randomadditions/models/item/jade_wall.json
 6cf4baac5045e79ae07fe1881f28c01b5f842f76 assets/randomadditions/models/item/raw_jade.json
 422ed68b902d0af6fbb1075d5819b6a98554b1bc assets/randomadditions/models/item/sugar_glass.json

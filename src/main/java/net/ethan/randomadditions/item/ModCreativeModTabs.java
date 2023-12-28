@@ -19,14 +19,36 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.JADE.get());
                         output.accept(ModItems.RAW_JADE.get());
+
                         output.accept(ModBlocks.JADE_BLOCK.get());
                         output.accept(ModBlocks.RAW_JADE_BLOCK.get());
+
                         output.accept(ModBlocks.JADE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
+
                         output.accept(ModItems.DIVINING_ROD.get());
                         output.accept(ModItems.SUGAR_GLASS.get());
                         output.accept(ModItems.CHARRED_CHARCOAL.get());
                         output.accept(ModBlocks.ALARM_MINE.get());
+
+                        output.accept(ModBlocks.JADE_STAIRS.get());
+                        output.accept(ModBlocks.JADE_SLAB.get());
+                        output.accept(ModBlocks.JADE_BUTTON.get());
+                        output.accept(ModBlocks.JADE_PRESSURE_PLATE.get());
+
+                        output.accept(ModBlocks.JADE_FENCE.get());
+                        output.accept(ModBlocks.JADE_FENCE_GATE.get());
+                        output.accept(ModBlocks.JADE_WALL.get());
+
+                        output.accept(ModBlocks.JADE_DOOR.get());
+                        output.accept(ModBlocks.JADE_TRAPDOOR.get());
+
+                        output.accept(ModItems.JADE_SWORD.get());
+                        output.accept(ModItems.JADE_PICKAXE.get());
+                        output.accept(ModItems.JADE_AXE.get());
+                        output.accept(ModItems.JADE_SHOVEL.get());
+                        output.accept(ModItems.JADE_HOE.get());
+
                     })
                     .build());
     public static void register(IEventBus eventBus) {

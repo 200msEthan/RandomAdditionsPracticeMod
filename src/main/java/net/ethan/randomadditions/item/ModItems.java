@@ -3,7 +3,7 @@ package net.ethan.randomadditions.item;
 import net.ethan.randomadditions.RandomAdditions;
 import net.ethan.randomadditions.item.custom.DiviningRodItem;
 import net.ethan.randomadditions.item.custom.FuelItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,6 +22,17 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.SUGAR_GLASS)));
     public static final RegistryObject<Item> CHARRED_CHARCOAL = ITEMS.register("charred_charcoal",
             () -> new FuelItem(new Item.Properties(), 400));
+    public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
+            () -> new SwordItem(ModToolTiers.JADE, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> JADE_PICKAXE = ITEMS.register("jade_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.JADE, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> JADE_AXE = ITEMS.register("jade_axe",
+            () -> new AxeItem(ModToolTiers.JADE, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> JADE_SHOVEL = ITEMS.register("jade_shovel",
+            () -> new ShovelItem(ModToolTiers.JADE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> JADE_HOE = ITEMS.register("jade_hoe",
+                () -> new HoeItem(ModToolTiers.JADE, 0, 0, new Item.Properties()));
+
     public static void register(IEventBus eventBus) { //registers deferredregisters
         ITEMS.register(eventBus);
     }
