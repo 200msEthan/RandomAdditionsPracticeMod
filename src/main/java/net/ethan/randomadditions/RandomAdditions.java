@@ -8,6 +8,7 @@ import com.mojang.logging.LogUtils;
 import net.ethan.randomadditions.block.ModBlocks;
 import net.ethan.randomadditions.item.ModCreativeModTabs;
 import net.ethan.randomadditions.item.ModItems;
+import net.ethan.randomadditions.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +38,8 @@ public class RandomAdditions {
         ModItems.register(modEventBus); //calls the register method to register the deferredregister
 
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
