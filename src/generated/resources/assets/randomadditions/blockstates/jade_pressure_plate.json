@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "randomadditions:block/jade_pressure_plate"
+    },
+    "powered=true": {
+      "model": "randomadditions:block/jade_pressure_plate_down"
+    }
+  }
+}

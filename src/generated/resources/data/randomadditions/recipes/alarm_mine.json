@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "J": {
+      "item": "randomadditions:jade"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GJG",
+    "GGG"
+  ],
+  "result": {
+    "item": "randomadditions:alarm_mine"
+  },
+  "show_notification": true
+}
