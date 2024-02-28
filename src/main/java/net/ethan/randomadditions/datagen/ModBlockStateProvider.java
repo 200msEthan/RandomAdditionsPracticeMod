@@ -2,11 +2,17 @@ package net.ethan.randomadditions.datagen;
 
 import net.ethan.randomadditions.RandomAdditions;
 import net.ethan.randomadditions.block.ModBlocks;
+import net.ethan.randomadditions.block.custom.SugarGlassCropBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -37,8 +43,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 modLoc("block/jade_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.JADE_TRAPDOOR.get()), modLoc("block/jade_trapdoor"),
                 true, "cutout");
+        makeSugarGlassCrop((CropBlock) ModBlocks.SUGAR_GLASS_CROP.get(), "sugar_glass_stage", "sugar_glass_stage");
     }
 
+    public void makeSugarGlassCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> sugarGlassStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+    private ConfiguredModel[] sugarGlassStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((SugarGlassCropBlock) block).getAgeProperty()),
+                new ResourceLocation(RandomAdditions.MOD_ID, "block/" + textureName + state.getValue(((SugarGlassCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }

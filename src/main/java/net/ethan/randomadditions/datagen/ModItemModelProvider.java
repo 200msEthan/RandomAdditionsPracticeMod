@@ -47,6 +47,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SUGAR_GLASS);
         simpleItem(ModItems.DIVINING_ROD);
         simpleItem(ModItems.CHARRED_CHARCOAL);
+        simpleItem(ModItems.SUGAR_GLASS_SEEDS);
 
         simpleBlockItem(ModBlocks.JADE_DOOR);
 

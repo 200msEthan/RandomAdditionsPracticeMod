@@ -54,6 +54,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.JADE_LEGGINGS.get());
                         output.accept(ModItems.JADE_BOOTS.get());
 
+                        output.accept(ModItems.SUGAR_GLASS_SEEDS.get());
+
                     })
                     .build());
     public static void register(IEventBus eventBus) {

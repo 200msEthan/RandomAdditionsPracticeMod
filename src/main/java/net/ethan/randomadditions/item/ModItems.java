@@ -1,6 +1,7 @@
 package net.ethan.randomadditions.item;
 
 import net.ethan.randomadditions.RandomAdditions;
+import net.ethan.randomadditions.block.ModBlocks;
 import net.ethan.randomadditions.item.custom.DiviningRodItem;
 import net.ethan.randomadditions.item.custom.FuelItem;
 import net.minecraft.world.item.*;
@@ -41,7 +42,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> JADE_BOOTS = ITEMS.register("jade_boots",
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.BOOTS, new Item.Properties()));
-
+    public static final RegistryObject<Item> SUGAR_GLASS_SEEDS = ITEMS.register("sugar_glass_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.SUGAR_GLASS_CROP.get(), new Item.Properties()));
     public static void register(IEventBus eventBus) { //registers deferredregisters
         ITEMS.register(eventBus);
     }

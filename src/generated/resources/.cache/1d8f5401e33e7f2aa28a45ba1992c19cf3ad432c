@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-28T21:13:26.6972071	Item Models: randomadditions
+// 1.20.2	2024-02-28T09:49:39.0485568	Item Models: randomadditions
 000af45e1cc66383d4d9a4b9b2ed3211382bf6c0 assets/randomadditions/models/item/charred_charcoal.json
 83a4d09e865da2a8b12bc543a4f55d9c13839935 assets/randomadditions/models/item/divining_rod.json
 3562733a5317320a1d92d3e4d26c5482ea5c5282 assets/randomadditions/models/item/jade.json
@@ -62,3 +62,4 @@ ac0d790d02d1c409d1fd1c6bf21539630b903813 assets/randomadditions/models/item/jade
 236cc656bd25ab84255fda3ceff4a8d16ab289b6 assets/randomadditions/models/item/jade_wall.json
 6cf4baac5045e79ae07fe1881f28c01b5f842f76 assets/randomadditions/models/item/raw_jade.json
 422ed68b902d0af6fbb1075d5819b6a98554b1bc assets/randomadditions/models/item/sugar_glass.json
+c37560f4227ac1b60f2cb7ba720faa34128e51ec assets/randomadditions/models/item/sugar_glass_seeds.json

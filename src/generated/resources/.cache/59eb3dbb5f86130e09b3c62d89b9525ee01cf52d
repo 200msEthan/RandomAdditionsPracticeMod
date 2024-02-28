@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-27T00:05:24.7078631	Loot Tables
+// 1.20.2	2024-02-28T09:49:39.0465555	Loot Tables
 9d9c7256d58e86b790676251ae63ee3cf6a0b005 data/randomadditions/loot_tables/blocks/alarm_mine.json
 f2d933e321ea41d8c24d649d83c809245ffe758f data/randomadditions/loot_tables/blocks/deepslate_jade_ore.json
 dffbea7fda6f5851a6afc104f46f849d1f1e91f2 data/randomadditions/loot_tables/blocks/jade_block.json
@@ -13,3 +13,4 @@ c803b5daf57f0d7478430473af99146550d444f5 data/randomadditions/loot_tables/blocks
 b91bad7cdb2a4304a9fcb9b42679ae5e5aada1a7 data/randomadditions/loot_tables/blocks/jade_trapdoor.json
 21867c1dfe91e119337daa335e239d46559e1ce1 data/randomadditions/loot_tables/blocks/jade_wall.json
 7515273d71f0e3fad429e9274e3c67d707b2308d data/randomadditions/loot_tables/blocks/raw_jade_block.json
+5233ff6d75ec4d0405f072237103f64496eb6d29 data/randomadditions/loot_tables/blocks/sugar_glass_crop.json
