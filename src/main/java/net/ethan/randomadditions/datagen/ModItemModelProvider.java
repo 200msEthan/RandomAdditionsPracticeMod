@@ -46,8 +46,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_JADE);
         simpleItem(ModItems.SUGAR_GLASS);
         simpleItem(ModItems.DIVINING_ROD);
+        simpleItem(ModItems.CHICKEN_CANNON);
         simpleItem(ModItems.CHARRED_CHARCOAL);
         simpleItem(ModItems.SUGAR_GLASS_SEEDS);
+        simpleItem(ModItems.GLASS_SHARD);
+        simpleItem(ModItems.BOWL_OF_GLASS_SHARDS);
+        simpleItem(ModItems.RAINBOW_SHEARS);
 
         simpleBlockItem(ModBlocks.JADE_DOOR);
 

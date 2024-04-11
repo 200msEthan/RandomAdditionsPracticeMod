@@ -3,6 +3,7 @@ package net.ethan.randomadditions.block;
 import net.ethan.randomadditions.RandomAdditions;
 import net.ethan.randomadditions.block.custom.AlarmMineBlock;
 import net.ethan.randomadditions.block.custom.SugarGlassCropBlock;
+import net.ethan.randomadditions.block.custom.TrapOreBlock;
 import net.ethan.randomadditions.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -67,8 +68,10 @@ public class ModBlocks {
                     BlockSetType.IRON));
     public static final RegistryObject<Block> SUGAR_GLASS_CROP = BLOCKS.register("sugar_glass_crop",
             () -> new SugarGlassCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
-
-
+    public static final RegistryObject<Block> TRAP_ORE = registerBlock("trap_ore",
+            () -> new TrapOreBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+    public static final RegistryObject<Block> BLOCK_OF_EGGS = registerBlock("egg_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).sound(SoundType.GLASS)));
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

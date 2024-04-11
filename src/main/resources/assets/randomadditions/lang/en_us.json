@@ -3,8 +3,12 @@
   "item.randomadditions.raw_jade": "Raw Jade",
 
   "item.randomadditions.divining_rod": "Divining Rod",
+  "item.randomadditions.chicken_cannon": "Chicken Cannon",
 
   "item.randomadditions.sugar_glass": "Sugar Glass",
+  "item.randomadditions.glass_shard": "Glass Shard",
+  "item.randomadditions.bowl_of_glass_shards": "Bowl of Glass Shards",
+  "item.randomadditions.rainbow_shears": "Rainbow Shears",
 
   "item.randomadditions.charred_charcoal": "Charred Charcoal",
 
@@ -23,11 +27,13 @@
 
   "block.randomadditions.jade_block": "Block of Jade",
   "block.randomadditions.raw_jade_block": "Block of Raw Jade",
+  "block.randomadditions.egg_block": "Block of Eggs",
 
   "block.randomadditions.jade_ore": "Jade Ore",
   "block.randomadditions.deepslate_jade_ore": "Deepslate Jade Ore",
 
   "block.randomadditions.alarm_mine": "Alarm Mine",
+  "block.randomadditions.trap_ore" : "Trap Ore",
 
   "block.randomadditions.jade_stairs": "Jade Stairs",
   "block.randomadditions.jade_slab": "Jade Slab",

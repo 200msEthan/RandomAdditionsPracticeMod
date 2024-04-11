@@ -10,4 +10,9 @@ public class ModFoods {
             .saturationMod(0.1f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200), 1f)
             .build();
+    public static final FoodProperties BOWL_OF_GLASS_SHARDS = new FoodProperties.Builder()
+            .nutrition(0)
+            .saturationMod(0)
+            .effect(() -> new MobEffectInstance(MobEffects.HARM, 201, 100), 1f)
+            .build();
 }

@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
@@ -45,6 +46,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.JADE_FENCE.get());
         this.dropSelf(ModBlocks.JADE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.JADE_WALL.get());
+        this.dropSelf(ModBlocks.TRAP_ORE.get());
+        this.dropSelf(ModBlocks.BLOCK_OF_EGGS.get());
 
         this.add(ModBlocks.JADE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.JADE_SLAB.get()));

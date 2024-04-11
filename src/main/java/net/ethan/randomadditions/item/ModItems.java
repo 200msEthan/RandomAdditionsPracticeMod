@@ -2,8 +2,10 @@ package net.ethan.randomadditions.item;
 
 import net.ethan.randomadditions.RandomAdditions;
 import net.ethan.randomadditions.block.ModBlocks;
+import net.ethan.randomadditions.item.custom.ChickenCannonItem;
 import net.ethan.randomadditions.item.custom.DiviningRodItem;
 import net.ethan.randomadditions.item.custom.FuelItem;
+import net.ethan.randomadditions.item.custom.RainbowShearsItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,8 +21,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIVINING_ROD = ITEMS.register("divining_rod",
             () -> new DiviningRodItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> RAINBOW_SHEARS = ITEMS.register("rainbow_shears",
+            () -> new RainbowShearsItem(new Item.Properties().durability(238)));
+    public static final RegistryObject<Item> CHICKEN_CANNON = ITEMS.register("chicken_cannon",
+            () -> new ChickenCannonItem(new Item.Properties().durability(50)));
     public static final RegistryObject<Item> SUGAR_GLASS = ITEMS.register("sugar_glass",
             () -> new Item(new Item.Properties().food(ModFoods.SUGAR_GLASS)));
+    public static final RegistryObject<Item> BOWL_OF_GLASS_SHARDS = ITEMS.register("bowl_of_glass_shards",
+            () -> new Item(new Item.Properties().food(ModFoods.BOWL_OF_GLASS_SHARDS)));
     public static final RegistryObject<Item> CHARRED_CHARCOAL = ITEMS.register("charred_charcoal",
             () -> new FuelItem(new Item.Properties(), 400));
     public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
@@ -44,6 +52,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.BOOTS, new Item.Properties()));
     public static final RegistryObject<Item> SUGAR_GLASS_SEEDS = ITEMS.register("sugar_glass_seeds",
             () -> new ItemNameBlockItem(ModBlocks.SUGAR_GLASS_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> GLASS_SHARD = ITEMS.register("glass_shard",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) { //registers deferredregisters
         ITEMS.register(eventBus);
     }

@@ -28,6 +28,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_JADE_ORE);
 
         blockWithItem(ModBlocks.ALARM_MINE);
+        blockWithItem(ModBlocks.TRAP_ORE);
+        blockWithItem(ModBlocks.BLOCK_OF_EGGS);
 
         stairsBlock(((StairBlock) ModBlocks.JADE_STAIRS.get()), blockTexture(ModBlocks.JADE_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.JADE_SLAB.get()), blockTexture(ModBlocks.JADE_BLOCK.get()), blockTexture(ModBlocks.JADE_BLOCK.get()));

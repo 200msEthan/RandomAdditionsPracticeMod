@@ -7,6 +7,7 @@ import net.ethan.randomadditions.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -43,7 +44,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_JADE_ORE.get(),
                         ModBlocks.JADE_BLOCK.get(),
                         ModBlocks.RAW_JADE_BLOCK.get(),
-                        ModBlocks.ALARM_MINE.get());
+                        ModBlocks.ALARM_MINE.get(),
+                        ModBlocks.TRAP_ORE.get(),
+                        ModBlocks.BLOCK_OF_EGGS.get());
+
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.JADE_FENCE.get());

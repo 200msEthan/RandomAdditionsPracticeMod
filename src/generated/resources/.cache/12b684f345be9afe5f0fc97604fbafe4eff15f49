@@ -1,7 +1,7 @@
-// 1.20.2	2023-12-28T20:15:35.5414938	Tags for minecraft:block mod id randomadditions
+// 1.20.2	2024-03-21T13:49:46.8766675	Tags for minecraft:block mod id randomadditions
 c77aa15b185bed58094d962171b0284148b79b83 data/minecraft/tags/blocks/fences.json
 cbc1b1a2b2634b40c6a0a9a55f25b4d162f8efb8 data/minecraft/tags/blocks/fence_gates.json
-9f679bbbc63aad5bcfb0ac73e712550eb1ecd77c data/minecraft/tags/blocks/mineable/pickaxe.json
+2a9a25044622d188c473d525e2b71d3f3a7c88a5 data/minecraft/tags/blocks/mineable/pickaxe.json
 d43280f44637df065d3d8dd2e2d297ab736edac8 data/minecraft/tags/blocks/needs_diamond_tool.json
 649b31eb38079ac8e00d5f87fb730dd4e0e679da data/minecraft/tags/blocks/needs_iron_tool.json
 ca2397e0bd6429ca7005c8e6757ebb73e27ae547 data/minecraft/tags/blocks/walls.json

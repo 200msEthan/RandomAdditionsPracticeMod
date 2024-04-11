@@ -22,14 +22,19 @@ public class ModCreativeModTabs {
 
                         output.accept(ModBlocks.JADE_BLOCK.get());
                         output.accept(ModBlocks.RAW_JADE_BLOCK.get());
+                        output.accept(ModBlocks.BLOCK_OF_EGGS.get());
 
                         output.accept(ModBlocks.JADE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
 
                         output.accept(ModItems.DIVINING_ROD.get());
+                        output.accept(ModItems.RAINBOW_SHEARS.get());
                         output.accept(ModItems.SUGAR_GLASS.get());
                         output.accept(ModItems.CHARRED_CHARCOAL.get());
+                        output.accept(ModItems.CHICKEN_CANNON.get());
+
                         output.accept(ModBlocks.ALARM_MINE.get());
+                        output.accept(ModBlocks.TRAP_ORE.get());
 
                         output.accept(ModBlocks.JADE_STAIRS.get());
                         output.accept(ModBlocks.JADE_SLAB.get());
@@ -55,6 +60,9 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.JADE_BOOTS.get());
 
                         output.accept(ModItems.SUGAR_GLASS_SEEDS.get());
+
+                        output.accept(ModItems.GLASS_SHARD.get());
+                        output.accept(ModItems.BOWL_OF_GLASS_SHARDS.get());
 
                     })
                     .build());

@@ -4,6 +4,8 @@
     "randomadditions:deepslate_jade_ore",
     "randomadditions:jade_block",
     "randomadditions:raw_jade_block",
-    "randomadditions:alarm_mine"
+    "randomadditions:alarm_mine",
+    "randomadditions:trap_ore",
+    "randomadditions:egg_block"
   ]
 }
