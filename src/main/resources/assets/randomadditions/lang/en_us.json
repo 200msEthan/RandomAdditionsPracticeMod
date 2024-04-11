@@ -4,11 +4,11 @@
 
   "item.randomadditions.divining_rod": "Divining Rod",
   "item.randomadditions.chicken_cannon": "Chicken Cannon",
+  "item.randomadditions.bowl_of_glass_shards": "Bowl of Glass Shards",
+  "item.randomadditions.rainbow_shears": "Rainbow Shears",
 
   "item.randomadditions.sugar_glass": "Sugar Glass",
   "item.randomadditions.glass_shard": "Glass Shard",
-  "item.randomadditions.bowl_of_glass_shards": "Bowl of Glass Shards",
-  "item.randomadditions.rainbow_shears": "Rainbow Shears",
 
   "item.randomadditions.charred_charcoal": "Charred Charcoal",
 
@@ -46,6 +46,7 @@
   "block.randomadditions.jade_trapdoor": "Jade Trapdoor",
 
   "tooltip.randomadditions.divining_rod.tooltip": "Detects ore underground",
+  "tooltip.randomadditions.alarm_mine.tooltip": "Loudly plays a bell sound when stepped on",
 
   "creativetab.random_additions_tab": "Random Additions Tab"
 }

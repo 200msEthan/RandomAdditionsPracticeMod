@@ -30,7 +30,7 @@ public class AlarmMineBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.literal("Loudly plays a bell sound when stepped on"));
+        pTooltip.add(Component.translatable("tooltip.randomadditions.alarm_mine.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
     }
 }

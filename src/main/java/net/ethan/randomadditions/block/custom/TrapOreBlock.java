@@ -2,8 +2,6 @@ package net.ethan.randomadditions.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.item.PrimedTnt;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -28,11 +26,11 @@ public class TrapOreBlock extends TntBlock {
     public void playerDestroy(Level pLevel, Player pPlayer,
                               BlockPos pPos, BlockState pState,
                               @Nullable BlockEntity pBlockEntity, ItemStack pTool) {
-        if (!pTool.isEmpty()) {
+        if (!pTool.isEmpty()) { //if it is the right tool (pickaxe)
+            //spawn a primed tnt at the block
             PrimedTnt primedtnt = new PrimedTnt(pLevel, (double)pPos.getX() + 0.5D, (double)pPos.getY(), (double)pPos.getZ() + 0.5D, pPlayer);
-            primedtnt.setFuse(1);
-            pLevel.addFreshEntity(primedtnt);
-            //pLevel.playSound((Player)null, primedtnt.getX(), primedtnt.getY(), primedtnt.getZ(), SoundEvents.TNT_PRIMED, SoundSource.BLOCKS, 1.0F, 1.0F);
+            primedtnt.setFuse(1); //set the fuse of the tnt to 1 tick (1/20 of a second)
+            pLevel.addFreshEntity(primedtnt); //actually spawn the tnt
             pLevel.gameEvent(pPlayer, GameEvent.PRIME_FUSE, pPos);
         }
         super.playerDestroy(pLevel, pPlayer, pPos, pState, pBlockEntity, pTool);
